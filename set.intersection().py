@@ -1,1 +1,6 @@
-
+n= int(input())
+list1 =  input().split()
+b= int(input())
+list2 = input().split()
+a = set(list1).intersection(list2)
+print(len(a))
