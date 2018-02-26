@@ -1,1 +1,5 @@
-
+n=int(input())
+s1=input().split()
+m=int(input())
+s2=input().split()
+print(len(set(map(int, s1)) | set(map(int, s2))))
