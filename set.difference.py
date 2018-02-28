@@ -1,0 +1,5 @@
+a = input()
+b = set(map(int,input().split()))
+c = input()
+d = set(map(int,input().split()))
+print (len(b-d))
