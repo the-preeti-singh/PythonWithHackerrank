@@ -1,0 +1,5 @@
+n1=int(input())
+l1=set(map(int,input().split()))
+n2=int(input())
+l2=set(map(int,input().split()))
+print(len(l1.symmetric_difference(l2)))
