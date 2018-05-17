@@ -1,1 +1,10 @@
-
+n=int(input())
+for i in range(n):
+    x=input()
+    if len(x)==10 and x.isdigit():
+        if x.startswith("7") or x.startswith("8") or x.startswith("9"):
+            print("YES")
+        else:
+            print("NO")
+    else:
+        print("NO")
